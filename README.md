@@ -105,7 +105,8 @@ console.log(`Stored Value: ${value}`);
 | Command                                                    | Description                                      |
 | ---------------------------------------------------------- | ------------------------------------------------ |
 | `yarn hardhat compile`                                     | Compiles the Solidity contracts                  |
-| `yarn hardhat run scripts/deploy.js --network sepolia`     | Deploys the contract to Sepolia                  |
+| `yarn hardhat run scripts/deploy.js --network sepolia`     | Deploys, Verify and Interact with the contract   |
+|                                                            | in Sepolia Testnet                               |
 | `yarn hardhat test`                                        | Runs unit tests                                  |
 | `yarn hardhat console --network sepolia`                   | Opens a Hardhat console for contract interaction |
 | `yarn hardhat verify --network sepolia <contract_address>` | Verifies the contract on Etherscan               |
